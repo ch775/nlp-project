@@ -15,4 +15,3 @@ console.log(checkForName);
 //alert("I EXIST")
 //console.log("CHANGE!!");
 
-console.log(`Your API key is ${process.env.API_KEY}`);

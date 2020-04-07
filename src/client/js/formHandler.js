@@ -6,7 +6,6 @@ function handleSubmit(event) {
     document.getElementById('results').innerHTML = formText;
 
     console.log(formText);
-    console.log(`Your API key is ${process.env.API_KEY}`);
 
     console.log("::: Form Submitted :::")
     fetch('http://localhost:8082/api',
